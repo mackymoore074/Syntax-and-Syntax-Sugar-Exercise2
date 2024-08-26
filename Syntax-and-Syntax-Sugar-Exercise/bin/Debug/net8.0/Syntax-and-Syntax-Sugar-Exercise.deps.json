@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Syntax-and-Syntax-Sugar-Exercise/1.0.0": {
+        "runtime": {
+          "Syntax-and-Syntax-Sugar-Exercise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Syntax-and-Syntax-Sugar-Exercise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

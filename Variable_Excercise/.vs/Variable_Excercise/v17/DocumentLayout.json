@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AdedapoAluko(DM)\\Dropbox (Leroy Haynes Center)\\Desktop\\repos\\Variable_Excercise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED6470C-9C5D-419F-BECE-95252C60602F}|Variable_Excercise\\Variable_Excercise.csproj|c:\\users\\adedapoaluko(dm)\\dropbox (leroy haynes center)\\desktop\\repos\\variable_excercise\\variable_excercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED6470C-9C5D-419F-BECE-95252C60602F}|Variable_Excercise\\Variable_Excercise.csproj|solutionrelative:variable_excercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdedapoAluko(DM)\\Dropbox (Leroy Haynes Center)\\Desktop\\repos\\Variable_Excercise\\Variable_Excercise\\Program.cs",
+              "RelativeDocumentMoniker": "Variable_Excercise\\Program.cs",
+              "ToolTip": "C:\\Users\\AdedapoAluko(DM)\\Dropbox (Leroy Haynes Center)\\Desktop\\repos\\Variable_Excercise\\Variable_Excercise\\Program.cs",
+              "RelativeToolTip": "Variable_Excercise\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T19:51:09.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
