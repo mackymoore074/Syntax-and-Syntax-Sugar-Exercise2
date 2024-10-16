@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Adedapo Aluko </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/373b1179af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="Container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact </a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hello! I'm <span>Adedapo Aluko,</span><br> a passionate .NET developer.</h1>
+            </div>
+        </div>
+    </div>
+    <!------- about-------->
+    <div id="about">
+        <div class="Container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="Adedapo Aluko">
+                </div>
+                <div class="about-cl-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I am Adedapo Ibikunle Aluko, a passionate .NET developer with a strong foundation in building scalable and efficient web applications.
+                        With experience in developing backend services using ASP.NET Core and working on complex projects like school management systems,
+                        I thrive in solving technical challenges. I aim to create innovative solutions that improve user experience and streamline processes.
+                        I am always exploring the latest technologies and enjoy collaborating with diverse teams to bring ideas to life. 
+                        Beyond coding, I am dedicated to continuous learning, expanding my skills, and staying ahead of industry trends.
+                        Let's connect and create something remarkable together!
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-link" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-link" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <div id="skills" class="tab-content">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Crafting intuitive and user-centered interfaces for web and mobile applications.</li>
+                            <li><span>Web Development</span><br>Building responsive and dynamic websites with a focus on performance and user experience.</li>
+                            <li><span>App Development</span><br>Creating efficient and functional mobile applications that offer seamless user interactions.</li>
+                        </ul>
+                    </div>
+
+                    <div id="experience" class="tab-content" style="display: none;">
+                        <ul>
+                            <li>3+ years of experience in .NET development.</li>
+                            <li>Lead developer for school management systems and mental health apps.</li>
+                            <li>Collaborated with cross-functional teams to deliver high-quality products.</li>
+                        </ul>
+                    </div>
+
+                    <div id="education" class="tab-content" style="display: none;">
+                        <ul>
+                            <li>Certified in Full Stack Development from TrueCoder Institute.</li>
+                            <li>Master's Degree in Data Science form National University. San Diego </li>
+                            <li>Bachelor's Degree in Electrical Electronic Engineering from Ektit State University. Nigeria </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--------------------Services---------------> 
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="service-item">
+                <i class="fa-solid fa-paintbrush"></i> <!-- Web Designer Icon -->
+                <h2>Web Designer</h2>
+                <p>I create visually appealing and responsive websites that offer a seamless user experience. My designs are user-centered, ensuring functionality across different devices.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-server"></i> <!-- Backend Developer Icon -->
+                <h2>Backend Developer</h2>
+                <p>Specialized in creating robust, scalable back-end architectures using modern frameworks. I ensure seamless integration with the front end and manage data effectively with optimized databases.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-object-ungroup"></i> <!-- UI/UX Consultant Icon -->
+                <h2>UI/UX Consultant</h2>
+                <p>Helping businesses enhance user interaction by providing in-depth UX research and creating intuitive interfaces that meet user needs and business goals.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-brands fa-app-store-ios"></i> <!-- Mobile App Developer Icon -->
+                <h2>App Developer</h2>
+                <p>Building cross-platform applications that are both feature-rich and optimized for performance, using technologies like Flutter and React Native.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!------- Portfolio Section ------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="portfolio-list">
+            <!--  App Development Project -->
+            <div class="portfolio-item">
+                <img src="images/markus-winkler-4TBdESUNuFg-unsplash.jpg" alt="Mobile App Project">
+                <div class="overlay">
+                    <h2>App Development</h2>
+                </div>
+                <div class="description">
+                    <p>This project involved creating a cross-platform mobile 
+                        application that enhances user engagement through 
+                        intuitive design and seamless functionality, similar 
+                        to leading platforms like Paycom.</p>
+                </div>
+            </div>
+            <!-- Web Design Project -->
+            <div class="portfolio-item">
+                <img src="images/luca-bravo-XJXWbfSo2f0-unsplash.jpg" alt="Web Design Project">
+                <div class="overlay">
+                    <h2>Web Design</h2>
+                </div>
+                <div class="description">
+                    <p>Designed visually appealing websites focused on user experience and responsive design. Each site is tailored to meet client needs while ensuring functionality across all devices.</p>
+                </div>
+            </div>
+            <!-- Backend Development Project -->
+            <div class="portfolio-item">
+                <img src="images/zyro-w48LglCMKFI-unsplash.jpg" alt="Backend Development Project">
+                <div class="overlay">
+                    <h2>Backend Development</h2>
+                </div>
+                <div class="description">
+                    <p>Developed robust backend architectures for various applications, ensuring efficient data management and seamless integration with frontend technologies.</p>
+                </div>
+            </div>
+            <!-- UI/UX Consulting Project -->
+            <div class="portfolio-item">
+                <img src="images/brooke-lark-W1B2LpQOBxA-unsplash.jpg" alt="UI/UX Project">
+                <div class="overlay">
+                    <h2>UI/UX Consulting</h2>
+                </div>
+                <div class="description">
+                    <p>Provided comprehensive UI/UX consulting services, enhancing user interaction through in-depth research and creating interfaces that align with business goals.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> Alukoadedapo20@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 424-244-4418</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/King_mackymoore/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/adedapo-aluko/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="https://docs.google.com/document/d/1bwCLNNjce1TS1W5EGLgFhK07BV1m04mC0Cr72tfgxVA/edit?tab=t.0" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="copyright">
+        <p>Copyright © Adedapo Aluko </p>
+    </div>
+</div>
+
+    <script>
+        function openTab(tabName) {
+            var i;
+            var x = document.getElementsByClassName("tab-content");
+            var links = document.getElementsByClassName("tab-link");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+                links[i].classList.remove("active-link");
+            }
+            document.getElementById(tabName).style.display = "block";
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbztt0OxYH-2kPoyvgnNmsuClppb59kzIT1HXSTf4LxCxzctvWeE4-4fG0QCaNmwV-_3zQ/exec'; // Your Google Apps Script URL
+
+const form = document.forms['submit-to-google-sheet'];
+form.addEventListener('submit', e => {
+    e.preventDefault(); // Prevent the default form submission
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            // Handle successful response
+            console.log('Success!', response);
+            document.getElementById('msg').textContent = 'Message sent successfully!';
+            form.reset(); // Reset the form after submission
+        })
+        .catch(error => {
+            // Handle error response
+            console.error('Error!', error.message);
+            document.getElementById('msg').textContent = 'An error occurred. Please try again.';
+        });
+});
+  </script>
+</body>
+</html>
